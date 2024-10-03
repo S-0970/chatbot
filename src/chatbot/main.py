@@ -14,6 +14,8 @@ def main() -> None:
 
         user_input = chat.get_user_input()
 
+    print(chat.sentiment_log)
+
 
 if __name__ == "__main__":
     main()

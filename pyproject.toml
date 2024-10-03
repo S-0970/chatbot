@@ -6,7 +6,11 @@ authors = [
     { name = "James Fitzgerald", email = "james@jawfish.dev" },
     { name = "Shaikha Aburehaima", email = "shaikha.ab0970@gmail.com" },
 ]
-dependencies = ["nltk>=3.9.1"]
+dependencies = [
+    "nltk>=3.9.1",
+    "openai>=1.51.0",
+    "python-dotenv>=1.0.1",
+]
 readme = "README.md"
 requires-python = ">= 3.12"
 

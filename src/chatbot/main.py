@@ -8,9 +8,9 @@ def main() -> None:
     while user_input != "exit":
         score = analysis.get_sentiment_score(user_input=user_input)
         label = analysis.get_sentiment_label(sentiment_score=score)
-        response = chat.get_response(sentiment_label=label)
+        response = chat.get_response(user_input)
 
-        print(response)
+        print("Assistant: " + response)
 
         user_input = chat.get_user_input()
 

@@ -14,7 +14,6 @@ sentiment_analyzer = SentimentIntensityAnalyzer()
 
 def get_sentiment_score(user_input: str) -> float:
     sentiment_scores = sentiment_analyzer.polarity_scores(user_input)
-
     return sentiment_scores["compound"]
 
 
